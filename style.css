@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper{
+    background: radial-gradient(#6f5964, #1c0c10);
+    margin: auto;
+    width: 970px;
+    font-family: Arial, sans-serif, serif;
+}
+
+#header{
+    padding: 20px 30px 20px 20px;
+    background-color: #fcfcfc;
+}
+
+#topLeft{
+    display: inline-block;
+    margin-right: 335px;
+}
+
+#topRight{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#content{
+    padding: 30px;
+}
+
+#upper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#photo{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#aboutBox{
+    display: inline-block;
+    width: 505px;
+    vertical-align: top;
+    background-color: #e1d5e0;
+    height: 268px;
+}
+
+#aboutText{
+    padding: 10px;
+    height: 207px;
+}
+
+#photo img{
+    height: 258px;
+    width: 390px;
+    border: 5px solid #c0c0c0;
+}
+
+.boxHeader{
+    color: #f8f8f8;
+    background: linear-gradient(#afafb3, #8b8996, #afafb3);
+    padding: 10px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left, #mid, #right{
+    width: 280px;
+    display: inline-block;
+    background: linear-gradient(90deg, #fdfdfd, #dbccda);
+    vertical-align: top;
+}
+
+#underline{
+    text-decoration: underline;
+}
+
+#middle{
+    background-color: yellow;
+}
+
+.boxImage img{
+    width: 280px;
+}
+
+.boxText{
+    text-align: justify;
+    padding: 10px;
+    height: 135px;
+    font-size: 10pt;
+}
+
+#iconBox{
+    padding: 5px;
+    height: 110px;
+}
+
+#iconBox img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.bottom{
+    margin: 0 auto;
+}
+
+#right .bottom{
+    width: 90px;
+}
+
+#mid .bottom{
+    width: 130px;
+}
+
+#left .bottom{
+    width: 80px;
+}
+
+.button{
+    background-color: #407d61;
+    color: #eefbee;
+    padding: 3px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#footer{
+    background-color: #fcfcfc;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.smallIcon{
+    display: inline;
+}
+
+.smallIcon img{
+    width: 20px;
+    height: 20px;
+    display: inline;
+}
+
+.contact{
+    text-decoration: underline;
+    display: inline;
+    font-style: italic;
+    vertical-align: top;
+}
